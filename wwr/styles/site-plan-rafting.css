@@ -1,2 +1,62 @@
 
 /* primary-color ="#1C77C3" secondary-color="#39A9DB" accent1-color="40BCD8" accent2-color="F39237" */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Rock+Salt&display=swap');
+
+
+:root{
+    --primary-color: #1C77C3;
+    --secondary-color: #39A9DB;
+    --accent1-color: #40BCD8;
+    --accent2-color: #F39237;
+
+    --heading-font:#39A9DB,sans;
+    --paragraph-font:#1C77C3,sans;
+
+    --nav-background-color:#F39237;
+    --nav-link-color:#1c77c3;
+    --nav-hover-link-color:#39a9db;
+    --nav-hover-background-color:#f39237;
+}
+
+body {
+    font-family: var(Sans);
+    max-width: 960px;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(sans);
+    color: var(--primary-color);
+}
+
+header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+
+p {
+    padding: 25px;
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover{
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
