@@ -10,8 +10,8 @@
     --accent1-color: #40BCD8;
     --accent2-color: #F39237;
 
-    --heading-font:#39A9DB,sans;
-    --paragraph-font:#1C77C3,sans;
+    --heading-font:#39A9DB,open sans-sarif;
+    --paragraph-font:#1C77C3,sans-sarif;
 
     --nav-background-color:#F39237;
     --nav-link-color:#1c77c3;
@@ -20,13 +20,13 @@
 }
 
 body {
-    font-family: var(Sans);
+    font-family: var(sans-sarif);
     max-width: 960px;
     padding: 20px;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: var(roboto);
+    font-family: var(--heading-font);
     color: var(--primary-color);
 }
 
@@ -62,7 +62,7 @@ nav a:hover{
 }
 
 body {
-    font-family: Roboto;
+    font-family:sans-serif;
 }
 h1 {
     font-family: 'Rock Salt';
