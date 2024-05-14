@@ -35,14 +35,10 @@ main {
     max-width: 840px;
 }
 
-aside {
+/* aside {
     width: 20rem;
-    margin: 1rem;
-    border: 1px solid rgba(0, 0, 0, 0.2); /* 1 */
-    background-color: #eee;
-    color: #333;
     text-align: center;
-}
+} */
 
 aside img {
     width: 200px;
@@ -74,6 +70,31 @@ footer {
     background-color: #ddd;
     color: #000;
 }
+
+aside {
+    width: 20em;
+    text-align: center;
+}
+
+main img {
+    float: right;
+    width: 100px;
+
+}
+
+aside h2 {
+    position: relative;
+    top: 46px;
+    left: 10px;
+} 
+
+
+main p {
+    padding: 30px;
+    left: 40%;
+}
+
+
 /* aside {
     padding: 1px;
     margin: 2px; this a comment
