@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap');
+
+:root {
+    --primary-color:#1c77c3; --secondary-color:#39a9db; 
+    --accent1-color:#40bcd8; --accent2-color:#f39237;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+section img {
+    display: block;
+    width: 600px;
+}
+
+.sociallinks a {
+    text-decoration: none;
+}
