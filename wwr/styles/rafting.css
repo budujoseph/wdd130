@@ -5,6 +5,11 @@
     --accent1-color:#40bcd8; --accent2-color:#f39237;
 }
 
+
+.hero {
+    position: absolute;
+}
+
 .hero img {
     display: block;
     width: 100%;
@@ -13,7 +18,7 @@
 
 section img {
     display: block;
-    width: 600px;
+    width: 550px;
 }
 
 .sociallinks a {
