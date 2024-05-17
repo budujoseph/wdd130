@@ -17,6 +17,7 @@ nav a {
 
 h1 {
     color: steelblue;
+    padding: 10px;
 }
 
 img {
@@ -79,10 +80,7 @@ aside {
 main img {
     float: right;
     width: 100px;
-    margin: 0 0 15px 15px;
-    
-    
-
+    margin: 0 0 15px 15px;  
 }
 
 aside h2 {
@@ -96,6 +94,8 @@ main p {
     padding: 30px;
     left: 40%;
     text-align: justify;
+    font-size: 17px;
+    padding: 2px;
 }
 
 
