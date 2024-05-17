@@ -79,6 +79,9 @@ aside {
 main img {
     float: right;
     width: 100px;
+    margin: 0 0 15px 15px;
+    
+    
 
 }
 
@@ -92,6 +95,7 @@ aside h2 {
 main p {
     padding: 30px;
     left: 40%;
+    text-align: justify;
 }
 
 
