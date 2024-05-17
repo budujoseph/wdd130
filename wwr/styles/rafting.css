@@ -5,6 +5,16 @@
     --accent1-color:#40bcd8; --accent2-color:#f39237;
 }
 
+div h1 {
+    padding: 8px;
+    color: #39a9db;
+    font-family: "Original Surfer", sans-serif;
+}
+
+section h1 {
+    padding: 8px;
+    color: #39a9db;
+}
 
 .hero {
     position: absolute;
