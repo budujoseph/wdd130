@@ -5,15 +5,27 @@
     --accent1-color:#40bcd8; --accent2-color:#f39237;
 }
 
+* {
+    margin: 0;
+    height: auto;
+}
+
 div h1 {
     padding: 8px;
-    color: #39a9db;
+    color: #f39237;
     font-family: "Original Surfer", sans-serif;
+    position: absolute;
+    left: 300px;
+    top: 250px;
+    
+    
 }
 
 section h1 {
-    padding: 8px;
+    padding: 20px;
+    margin: 0;
     color: #39a9db;
+    
 }
 
 .hero {
@@ -24,7 +36,6 @@ section h1 {
     display: block;
     width: 100%;
     height: auto;
-
 }
 
 section img {
@@ -34,4 +45,23 @@ section img {
 
 .sociallinks a {
     text-decoration: none;
+}
+
+ article p {
+    position: absolute;
+    padding: 10px;
+    top: 450px
+    
+}
+
+article img {
+    float: right;
+    width: 200px;
+    padding: 5px;
+    position: relative;
+}
+
+footer p {
+    padding: 2px;
+    margin: 0;
 }
