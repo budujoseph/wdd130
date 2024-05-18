@@ -10,7 +10,7 @@
     margin: 0;
     height: auto;
     max-width: 100%;
-    padding: 1em;
+
 
     
     
@@ -25,17 +25,18 @@ div h1 {
     padding: 8px;
     font-family: "Original Surfer", sans-serif;
     position: absolute;
-    left: 450px;
-    top: 400px;
-    background-color: var(--accent1-color);
+    left: 360px;
+    top: 300px;
     opacity: 0.7;
-    
+    background-color: black;
+    color:  var(--accent2-color);
+    font-size: 50px;
 }
 
 section h2 {
     padding: 20px;
     margin: 0;
-    color: #39a9db;
+    color: var(--accent2-color);
     left: 200px;
 }
 
@@ -49,7 +50,7 @@ section p {
 section h3 {
     padding: 20px;
     margin: 0;
-    color: #39a9db;
+    color: var(--accent2-color);
     font-size: 25px;
 }
 
@@ -63,7 +64,7 @@ section h3 {
 section img {
     display: block;
     width: 550px;
-}
+} 
 
 .sociallinks a {
     text-decoration: none;
@@ -108,6 +109,14 @@ figcaption {
     padding: 10px;
     color: #39a9db;
     font-size: 20px;
+}
+
+header img {
+    padding: o;
+}
+
+header nav {
+    padding: 0;
 }
 
 
