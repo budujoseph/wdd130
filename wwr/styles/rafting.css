@@ -10,7 +10,7 @@
     margin: 0;
     height: auto;
     max-width: 100%;
-    padding: px;
+    padding: 1em;
 
     
     
@@ -18,13 +18,14 @@
 
 div img{
     padding: 150px;
+    margin-top: -150px;
 }
 
 div h1 {
     padding: 8px;
     font-family: "Original Surfer", sans-serif;
     position: absolute;
-    left: 400px;
+    left: 450px;
     top: 400px;
     background-color: var(--accent1-color);
     opacity: 0.7;
