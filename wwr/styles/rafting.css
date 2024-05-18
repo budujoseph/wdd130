@@ -8,16 +8,17 @@
 * {
     margin: 0;
     height: auto;
+    max-width: 100%;
 }
 
 div h1 {
     padding: 8px;
-    color: #f39237;
     font-family: "Original Surfer", sans-serif;
     position: absolute;
     left: 300px;
     top: 250px;
-    
+    background-color: var(--accent1-color);
+    opacity: 0.7;
     
 }
 
@@ -48,20 +49,38 @@ section img {
 }
 
  article p {
-    position: absolute;
+    /* position: absolute; */
     padding: 10px;
-    top: 450px
+    top: 450px;
+    /* border: 2px solid black; */
+    /* width: 700px; */
+    text-align: justify;
     
 }
 
-article img {
+.happymoment {
     float: right;
     width: 200px;
     padding: 5px;
     position: relative;
+    /* border: 1px solid #40bcd8; */
+    margin: 3px;
 }
 
 footer p {
     padding: 2px;
     margin: 0;
 }
+
+article {
+    overflow: auto;
+    padding: 20px;
+    width: 900px;
+    position: absolute;
+    margin-top: -400px;
+    margin-left: 50px;
+    background-color:var(--accent1-color) ;
+    opacity: 0.8;
+    background-image: linear-gradient();
+}
+
