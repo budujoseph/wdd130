@@ -21,37 +21,39 @@ div img{
     margin-top: -150px;
 }
 
-div h1 {
+div h {
     padding: 8px;
     font-family: "Original Surfer", sans-serif;
     position: absolute;
     left: 360px;
-    top: 300px;
+    top: 200px;
     opacity: 0.7;
     background-color: black;
     color:  var(--accent2-color);
     font-size: 50px;
 }
 
-section h2 {
-    padding: 20px;
+.history {
+    padding: 10px;
     margin: 0;
     color: var(--accent2-color);
     left: 200px;
+    font-size: 40px;
 }
 
 section p {
     padding: 20px;
     font-size: 20px;
     text-align: center;
-    width: 700px;
+    font-family: 'Roboto', sans-serif;
+    
 }
 
 section h3 {
-    padding: 20px;
+    padding: 10px;
     margin: 0;
     color: var(--accent2-color);
-    font-size: 25px;
+    font-size: 40px;
 }
 
 
@@ -61,8 +63,13 @@ section h3 {
     height: auto;
 }
 
+
 .sociallinks a {
     text-decoration: none;
+}
+
+.sociallinks img {
+    width: 200px;
 }
 
  article p {
@@ -72,7 +79,7 @@ section h3 {
     /* border: 2px solid black; */
     /* width: 700px; */
     text-align: justify;
-    
+    font-size: 'Roboto', sans-serif;
 }
 
 .happymoment {
@@ -104,6 +111,8 @@ figcaption {
     padding: 10px;
     color: #39a9db;
     font-size: 20px;
+    display: block;
+    font-weight: 700;
 }
 
 header img {
@@ -117,7 +126,6 @@ header nav {
 header {
     display: grid;
     grid-template-columns: 1fr 3fr;
-    grid-gap: 20px;
     align-items: center;
     background-color: #40bcd8;
     margin: auto;
@@ -126,6 +134,7 @@ header {
 .logo {
     grid-column: 1;
     padding: 10px;
+    width: 100px;
 }
 
 .links {
@@ -136,3 +145,38 @@ header {
     font-weight: 800;
 }
 
+figure {
+    display: inline-flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: space-around;
+    width: 230px;
+    flex-wrap: wrap;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    background-color: #40bcd8;
+    margin: auto;
+    font-size: px;
+    text-align: center;
+    color: white;
+    font-size: 'Roboto',sans-serif;
+}
+
+.sociallinks {
+    grid-column: 2;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    font-weight: 800;
+    align-items: flex-end;
+}
+
+footer nav {
+    display:block ;
+
+}
