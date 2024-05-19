@@ -61,11 +61,6 @@ section h3 {
     height: auto;
 }
 
-section img {
-    display: block;
-    width: 550px;
-} 
-
 .sociallinks a {
     text-decoration: none;
 }
