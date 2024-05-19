@@ -125,6 +125,7 @@ header {
     grid-gap: 20px;
     align-items: center;
     background-color: #40bcd8;
+    margin: auto;
 }
 
 .logo {
