@@ -124,6 +124,7 @@ header {
     grid-template-columns: 1fr 3fr;
     grid-gap: 20px;
     align-items: center;
+    background-color: #40bcd8;
 }
 
 .logo {
@@ -134,5 +135,7 @@ header {
     grid-column: 2;
     display: flex;
     justify-content: space-around;
+    color: white;
+    font-weight: 800;
 }
 
