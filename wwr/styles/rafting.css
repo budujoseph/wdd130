@@ -46,7 +46,7 @@ section p {
     font-size: 20px;
     text-align: center;
     font-family: 'Roboto', sans-serif;
-    
+    background-color: beige;
 }
 
 section h3 {
@@ -129,6 +129,8 @@ header {
     align-items: center;
     background-color: #40bcd8;
     margin: auto;
+    justify-items: space-around;
+    text-decoration: none;
 }
 
 .logo {
@@ -143,6 +145,8 @@ header {
     justify-content: space-around;
     color: white;
     font-weight: 800;
+    text-decoration: none;
+    padding: 30px;
 }
 
 figure {
@@ -174,9 +178,15 @@ footer {
     color: white;
     font-weight: 800;
     align-items: flex-end;
+    text-decoration: none;
 }
 
 footer nav {
     display:block ;
 
+}
+
+.oldpic {
+    float: right;
+    width: 200px;
 }
