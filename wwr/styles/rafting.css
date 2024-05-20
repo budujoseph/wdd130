@@ -10,11 +10,11 @@
 * {
     margin: 0;
     height: auto;
-    max-width: 100%;
+    max-width: 100%;    
+}
 
-
-    
-    
+article h2 {
+    font-weight: 700;
 }
 
 div img{
