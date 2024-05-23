@@ -10,10 +10,10 @@
     --heading-font: "Rock Salt", sans-serif;
     --paragraph-font: "open Sans", sans-serif;
 
-    --nav-background-color: #F39237;
-    --nav-link-color: #1c77c3;
-    --nav-hover-link-color: #39a9db;
-    --nav-hover-background-color: #f39237;
+    --nav-background-color: #0d0669;
+    --nav-link-color: #d7ebfc;
+    --nav-hover-link-color: #0d0669;
+    --nav-hover-background-color: #d7ebfc;
 }
 
 
@@ -139,17 +139,14 @@ figcaption {
     font-weight: 700;
 }
 
-header nav {
-    padding: 0;
-}
+
 
 header {
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-columns: 200px auto;
     align-items: center;
-    background-color: #40bcd8;
-    margin: auto;
-    text-decoration: none;
+   
+   
 }
 
 .logo {
@@ -159,13 +156,20 @@ header {
 }
 
 .links {
-    grid-column: 3;
+    grid-column: 2;
     display: flex;
     justify-content: space-around;
-    color: white;
-    font-weight: 800;
+    background-color: var(--nav-background-color);
+}
+.links a {
     text-decoration: none;
-    padding: 30px;
+    padding: 1em;
+    color: var(--nav-link-color);
+    font-weight: 700;
+}
+.links a:hover {
+    background-color: var(--nav-hover-background-color);
+    color: var(--nav-hover-link-color);
 }
 
 figure {
