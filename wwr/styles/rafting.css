@@ -15,12 +15,12 @@
 
 
 
-div img{
+img{
     padding: 150px;
     margin-top: -150px;
 }
 
-div h1 {
+h1 {
     padding: 8px;
     font-family: "Original Surfer", sans-serif;
     position: absolute;
