@@ -104,6 +104,10 @@ section h3 {
     width: 60px;
 }
 
+.sociallinks img:hover  {
+    background-color: #d7ebfc;
+}
+
 article p {
     /* position: absolute; */
     padding: 10px;
@@ -190,7 +194,7 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
-    background-color: #40bcd8;
+    background-color: #0d0669;
     margin: auto;
     text-align: center;
     color: white;
@@ -250,6 +254,7 @@ strong {
 }
 
 form {
+    max-width: 800px;
     background-color:#eee ;
     border: 1px;
     width: 650px;
@@ -281,7 +286,7 @@ input, select, textarea {
 input[type="checkbox"] {
     width: 22px;
     height: 22px;
-    vertical-align: bottom;
+
     
 }
 
