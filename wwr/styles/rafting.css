@@ -49,6 +49,10 @@ h6 {
 
 }
 
+main h1 {
+    font-family: "Roboto", sans-serif;
+}
+
 .history {
     padding: 10px;
     margin: 0;
@@ -215,3 +219,44 @@ footer nav {
     width: 300px;
 }
 
+main h1 {
+    text-align: center;
+    background-color: #1C77C3;
+    color: white;
+}
+
+.contacts {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+
+}
+
+.address, .phone, .email {
+    width: 150px;
+    display: inline;
+    justify-content: space-around;
+
+}
+
+.map {
+    padding: 2px;
+    margin: 0;
+}
+
+form {
+    background-color:#eee ;
+    border: 1px;
+    width: 650px;
+    padding: 5px;
+    border-radius: 0.5rem ;
+    display: grid;
+    box-sizing: border-box;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: .2rem;
+    margin: 1rem;
+    border: 1px solid regba(0, 0, 0, 0.2)
+}
