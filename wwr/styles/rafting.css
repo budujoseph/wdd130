@@ -225,6 +225,10 @@ main h1 {
     color: white;
 }
 
+strong {
+    color: black;
+}
+
 .contacts {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -240,6 +244,7 @@ main h1 {
 }
 
 .map {
+    text-align: center;
     padding: 2px;
     margin: 0;
 }
@@ -252,13 +257,14 @@ form {
     border-radius: 0.5rem ;
     display: grid;
     box-sizing: border-box;
+    height: fit-content;
 }
 
 fieldset {
     display: grid;
     grid-gap: .2rem;
     margin: 1rem;
-    border: 1px solid regba(0, 0, 0, 0.2)
+    border: 1px solid rgba(0, 0, 0, 0.2)
 }
 
 legend {
@@ -284,7 +290,7 @@ button {
     background-color: navy;
     color: #fff;
     border-radius: .5rem;
-    padding: .75;
+    padding: .75px;
     font-size: 1.2rem;
 }
 
@@ -294,4 +300,15 @@ button:hover {
 
 label {
     font-weight: 700;
+    
+}
+
+input[type="radio"] {
+    height: 22px;
+    width: 22px;
+}
+
+.radio {
+    display: block;
+    padding: 10px;
 }
