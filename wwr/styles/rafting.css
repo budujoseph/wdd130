@@ -318,13 +318,3 @@ input[type="radio"] {
     padding: 10px;
 }
 
-.wireframe a {
-    color: white;
-    text-align: center;
-    font-weight: 700;
-    text-decoration: none;
-}
-
-.wireframe img {
-    width: 50px;
-}
