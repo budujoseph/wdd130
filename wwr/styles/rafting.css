@@ -237,6 +237,7 @@ strong {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
+    margin: 0 auto;
 
 }
 
@@ -263,6 +264,7 @@ form {
     display: grid;
     box-sizing: border-box;
     height: fit-content;
+    margin: 0 auto;
 }
 
 fieldset {
