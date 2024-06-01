@@ -399,3 +399,94 @@ th, td {
     border: 1px solid black;
     padding: 15px 15px;
 }
+
+.home h1 {
+    position: absolute;
+    width: 1000px;
+    text-align: center;
+    opacity: 0.8;
+    background-color:black ;
+    bottom: 100px;
+    
+}
+
+.home p {
+    background-color:black;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 50px;
+    opacity: 0.8;
+    width: 300px;
+    position:absolute;
+}
+
+/* .home img {
+    
+} */
+.homeh3 {
+    font-family: "Roboto", sans-serif;
+    color: white;
+    padding-bottom: 30px;
+    font-size: 30px;
+
+}
+
+.newsletter p {
+    text-align: center;
+    padding: 0;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.newsletter h2 {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    color: var(--nav-background-color);
+}
+
+.newsletter {
+    /* max-width:500px; */
+    background-color: white;
+    box-sizing: border-box;
+    border: 1px solid rgba(8, 8, 8, 0.1);
+    padding: 50px;
+}
+
+.newsletter button {
+    width: 200px;
+    text-align: center;
+    height: 50px;
+    margin: 0 auto;
+    
+}
+
+.newsletter input {
+    padding: 10px;
+}
+
+.newsletter label {
+    padding: 10px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px;
+    gap: 20px;
+}
+
+.offering {
+    background-color: rgb(246, 246, 248);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.offering img {
+    border-radius: 15px;
+    padding: 10px 10px;
+}
+.grid p {
+    font-family: "Roboto", sans-serif;
+    background-color: beige;
+}
