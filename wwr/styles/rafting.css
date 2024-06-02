@@ -404,9 +404,11 @@ th, td {
     position: absolute;
     width: 1000px;
     text-align: center;
+    padding: 50px;
     opacity: 0.8;
     background-color:black ;
-    bottom: 100px;
+    bottom: 300px;
+    font-size: 50px;
     
 }
 
@@ -414,10 +416,12 @@ th, td {
     background-color:black;
     color: white;
     font-family: "Roboto", sans-serif;
-    font-size: 50px;
-    opacity: 0.8;
+    font-size: 40px;
     width: 300px;
     position:absolute;
+    bottom:50px ;
+    text-align: center;
+    background-color: var(--nav-background-color);
 }
 
 /* .home img {
