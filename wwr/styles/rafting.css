@@ -442,7 +442,7 @@ th, td {
     font-weight: 600;
 }
 
-.newsletter h3 {
+.invite {
     text-align: center;
     font-family: "Roboto", sans-serif;
     color: var(--nav-background-color);
