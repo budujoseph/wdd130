@@ -424,9 +424,7 @@ th, td {
     background-color: var(--nav-background-color);
 }
 
-/* .home img {
-    
-} */
+
 .homeh3 {
     font-family: "Roboto", sans-serif;
     color: white;
@@ -450,7 +448,6 @@ th, td {
 }
 
 .newsletter {
-    /* max-width:500px; */
     box-sizing: border-box;
     border: 1px solid rgba(8, 8, 8, 0.1);
     padding: 50px 50px;
