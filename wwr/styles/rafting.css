@@ -446,6 +446,7 @@ th, td {
     text-align: center;
     font-family: "Roboto", sans-serif;
     color: var(--nav-background-color);
+    font-size: 30px;
 }
 
 .newsletter {
