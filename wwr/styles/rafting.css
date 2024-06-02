@@ -446,10 +446,11 @@ th, td {
 
 .newsletter {
     /* max-width:500px; */
-    background-color: white;
     box-sizing: border-box;
     border: 1px solid rgba(8, 8, 8, 0.1);
-    padding: 50px;
+    padding: 50px 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
 }
 
 .newsletter button {
@@ -460,6 +461,10 @@ th, td {
     
 }
 
+.newsletter input:focus {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
 .newsletter input {
     padding: 10px;
 }
@@ -467,6 +472,8 @@ th, td {
 .newsletter label {
     padding: 10px;
 }
+
+
 
 .grid {
     display: grid;
@@ -485,6 +492,8 @@ th, td {
 .offering img {
     border-radius: 15px;
     padding: 10px 10px;
+    width: 450px;
+    height: 300px;
 }
 .grid p {
     font-family: "Roboto", sans-serif;
