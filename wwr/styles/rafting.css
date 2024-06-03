@@ -148,7 +148,9 @@ figcaption {
     font-weight: 700;
 }
 
-
+.tourguide img {
+    height: 150px;
+}
 
 header {
     display: grid;
