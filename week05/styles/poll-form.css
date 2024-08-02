@@ -4,7 +4,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    margin: 0 auto;
 }
+
+
 
 body {
     font-family: "Roboto" sans-serif;
@@ -14,7 +17,7 @@ body {
 }
 
 header {
-    margin: 0;
+    margin: 0 auto;
     width: 650px;
 }
 
@@ -27,12 +30,13 @@ h1 {
 
 form {
     width: 650px;
-    margin: 0;
+    margin: 0 auto;
     padding: 1rem;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 0.5rem;
     background-color: #eee;
     display: grid;
+    display: block;
 }
 
 fieldset  {
@@ -76,6 +80,7 @@ button {
     border-radius: .5rem;
     padding: .75;
     font-size: 1.2rem;
+    width: 36rem;
 }
 
 button:hover {
@@ -91,7 +96,7 @@ footer {
     border-top: 1px solid #ccc;
 }
 
-.foom-item {
+.form-item {
     display:grid;
     align-items: center;
 }

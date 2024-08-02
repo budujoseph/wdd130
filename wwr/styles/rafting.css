@@ -63,7 +63,6 @@ main h1 {
 
 section p {
     padding: 20px;
-    
     background-color: beige;
 }
 
@@ -110,11 +109,8 @@ section h3 {
 }
 
 article p {
-    /* position: absolute; */
     padding: 10px;
     top: 450px;
-    /* border: 2px solid black; */
-    /* width: 700px; */
     text-align: justify;
     font-weight: bold;
 }
