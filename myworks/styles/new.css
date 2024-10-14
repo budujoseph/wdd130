@@ -1,0 +1,24 @@
+
+.data {
+    font-family: Arial, sans-serif;
+}
+
+.datalist {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0;           /* Remove default padding */
+    margin: 0;            /* Remove default margin */
+}
+
+.datalist li {
+    display: flex;        /* Use flexbox */
+    justify-content: space-between; /* Space between label and value */
+    margin-bottom: 10px; /* Space between items */
+}
+
+.label {
+    flex-basis: 30%; /* Adjust this percentage as needed */
+}
+
+.value {
+    flex-basis: 70%; /* Adjust this percentage as needed */
+}
