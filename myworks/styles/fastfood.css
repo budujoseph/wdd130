@@ -92,8 +92,9 @@ article p {
 }
 
 .body-grid img {
-    width: 420px;
+    width: 500px;
     border-radius: 7px;
+    width: 100%;
 }
 
 .body-grid {
@@ -117,7 +118,7 @@ article p {
 }
 
 .orders, .control, .bullets {
-    border: solid rgb(102, 15, 15);
+    border: solid 1px rgb(102, 15, 15);
     border-radius: 7px;
     flex-wrap: wrap;
     font-family: "Roboto", sans-serif;
@@ -199,7 +200,7 @@ input {
 footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    background-color: rgb(221, 212, 212);
+    /* background-color: rgb(221, 212, 212); */
     padding-top: 50px;
     align-items: center;
 
